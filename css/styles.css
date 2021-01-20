@@ -272,7 +272,19 @@ img {
 }
 
 .icon-antena::before {
-  background-image: url(../img/hw4/antenna.png);
+  background-image: url(../img/hw4/antenna.svg);
+}
+
+.icon-clock::before {
+  background-image: url(../img/hw4/clock.svg);
+}
+
+.icon-diagram::before {
+  background-image: url(../img/hw4/diagram.svg);
+}
+
+.icon-astronaut::before {
+  background-image: url(../img/hw4/astronaut.svg);
 }
 
 /*What we do*/
@@ -323,11 +335,30 @@ img {
 
 .socialnetworks {
   display: flex;
+  justify-content: space-between;
   margin-top: 16px;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+.snetworklist {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .socialnetworks .link {
+  outline: solid black;
   text-decoration: none;
+  display: block;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+}
+
+.snetworcs-item {
+  width: 20px;
+  height: 20px;
 }
 
 .position {
@@ -351,6 +382,7 @@ img {
   border: 1px solid #afb1b8;
   border-radius: 4px;
 }
+
 /*Footer*/
 
 .footer {
@@ -469,4 +501,9 @@ img {
   border-right: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
   text-align: left;
+}
+
+.portfolio .item:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
