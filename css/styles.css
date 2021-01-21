@@ -129,6 +129,36 @@ img {
   margin-right: 42px;
 }
 
+.mail-svg {
+  width: 16px;
+  height: 12px;
+  fill: #757575;
+  margin-right: 10px;
+}
+
+.anlink:focus .mail-svg,
+.anlink:hover .mail-svg {
+  fill: var(--accent-color);
+}
+
+.phone-svg {
+  width: 10px;
+  height: 16px;
+  fill: #757575;
+  margin-right: 10px;
+}
+
+.anlink:focus .phone-svg,
+.anlink:hover .phone-svg {
+  fill: var(--accent-color);
+}
+
+.anlink {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .site-nav .anlink,
 .auth-nav .anlink {
   text-decoration: none;
@@ -391,6 +421,9 @@ img {
 }
 
 .clients-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 170px;
   height: 90px;
   border: 1px solid #afb1b8;
@@ -412,6 +445,26 @@ img {
 .clients-item-1 {
   width: 44.27px;
   height: 49.23px;
+}
+.clients-item-2 {
+  width: 40px;
+  height: 52px;
+}
+.clients-item-3 {
+  width: 41px;
+  height: 42.6px;
+}
+.clients-item-4 {
+  width: 79.66px;
+  height: 42.02px;
+}
+.clients-item-5 {
+  width: 59px;
+  height: 47px;
+}
+.clients-item-6 {
+  width: 88.48px;
+  height: 45.44px;
 }
 /*Footer*/
 
