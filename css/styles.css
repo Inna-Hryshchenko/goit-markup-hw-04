@@ -253,6 +253,8 @@ img {
   font-size: 14px;
   line-height: 1.143;
   letter-spacing: 0.03em;
+  padding-top: 30px;
+  padding-bottom: 10px;
 }
 
 .reautures-item {
@@ -347,18 +349,30 @@ img {
   align-items: center;
 }
 
-.socialnetworks .link {
-  outline: solid black;
+.snetworklist-link {
   text-decoration: none;
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 44px;
   height: 44px;
   border-radius: 50%;
 }
 
+.snetworklist-link:hover .snetworcs-item,
+.snetworklist-link:focus .snetworcs-item {
+  fill: #fff;
+}
+
+.snetworklist-link:hover,
+.snetworklist-link:focus {
+  background-color: var(--accent-color);
+}
+
 .snetworcs-item {
   width: 20px;
   height: 20px;
+  fill: #afb1b8;
 }
 
 .position {
@@ -383,6 +397,22 @@ img {
   border-radius: 4px;
 }
 
+.clients-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  fill: #afb1b8;
+}
+
+.clients-list:hover .clients-item,
+.clients-list:focus .clients-item {
+  fill: var(--accent-color);
+}
+
+.clients-item-1 {
+  width: 44.27px;
+  height: 49.23px;
+}
 /*Footer*/
 
 .footer {
@@ -392,6 +422,10 @@ img {
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: #2f303a;
+}
+
+.footer .container {
+  display: flex;
 }
 
 .auth-nav .adress {
@@ -415,6 +449,7 @@ img {
 .footer .logo {
   display: inline-block;
   margin-bottom: 20px;
+  color: #fff;
 }
 
 .footer .auth-nav {
@@ -424,6 +459,38 @@ img {
 .footer-item {
   display: inline-block;
   margin-top: 9px;
+}
+
+.footer-title {
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+.footer-socialnetworks {
+  margin-left: 70px;
+}
+
+.footer .socialnetworks {
+  padding-left: 0px;
+  padding-right: 0px;
+  width: 206px;
+}
+
+.footer .snetworklist-link {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.footer .snetworcs-item {
+  fill: #fff;
+}
+
+.footer .snetworklist-link:hover,
+.footer .snetworklist-link:focus {
+  background-color: var(--accent-color);
 }
 
 /*Portfolio*/
